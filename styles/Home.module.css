@@ -13,6 +13,9 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  /* background-image: url("/bg-mint.svg");
+  background-repeat: no-repeat;
+  background-size: cover; */
   /* background: cadetblue; */
   /* background-image: url("/bg-mintdropz.svg");
   background-repeat: no-repeat;
@@ -98,7 +101,10 @@
 }
 
 .landing {
-  background-image: url("/bg-mint.svg");
+}
+
+.main_style {
+  background-image: url("/bg-mintdropz.svg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -108,6 +114,9 @@
   width: 100%;
   display: flex;
   padding: 0rem 3rem;
+  border: 0px;
+  border: none;
+  box-shadow: none;
   box-sizing: border-box;
 }
 
@@ -160,7 +169,7 @@
 .landing_header {
   width: 100%;
   height: auto;
-  padding: 0 2rem;
+  padding: 4rem 2rem;
   box-sizing: border-box;
   color: white;
   display: flex;
@@ -444,6 +453,9 @@
   padding: 4rem 3rem;
   box-sizing: border-box;
   width: 100%;
+  background-image: url("/bg-mintdropz.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
   color: white;
   display: flex;
   gap: 10%;
@@ -569,6 +581,15 @@
   justify-content: space-between;
 }
 
+.footer_header h1 {
+  font-size: 4.5rem;
+}
+
+.footer_header p {
+  font-size: 28px;
+  width: 70%;
+}
+
 .dark_logo {
   width: 33%;
 }
@@ -589,6 +610,158 @@
   display: flex;
   gap: 5%;
   width: 7%;
+}
+
+.future_banner {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  color: white;
+  padding: 4rem 3rem;
+  background-image: url("/bg-mintdropz.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.future_header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 5%;
+}
+
+.future_header h1 {
+  font-size: 4rem;
+  width: 30%;
+}
+
+.future_header :nth-child(3) {
+  /* margin: 1rem auto; */
+  width: 30%;
+}
+
+.future_cards {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.section_one {
+  display: flex;
+  width: 40vw;
+  gap: 20%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card_one {
+  background: #000;
+  border-radius: 20px;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3.5rem 3.5rem;
+  height: auto;
+  margin: 0 0 3rem 0;
+}
+
+.card_two {
+  background: #000;
+  border-radius: 20px;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3.5rem 3.5rem;
+  height: auto;
+}
+
+.card_one h1 {
+  font-size: 28px;
+}
+
+.card_one p {
+  width: 100%;
+}
+
+.banner_border {
+  border-right: 2px solid white;
+  height: 70vh;
+}
+
+.section_two {
+  display: flex;
+  width: 40vw;
+  gap: 20%;
+  flex-direction: column;
+}
+
+.launch {
+  display: flex;
+  width: 100%;
+  color: white;
+  background-image: url("/bg-mintdropz.svg");
+  background-repeat: repeat-x;
+  background-size: cover;
+  padding: 4rem 3rem;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.launch h1 {
+  font-size: 5rem;
+}
+
+.launch img {
+  width: 92vw;
+}
+
+.partners {
+  display: flex;
+  width: 100%;
+  padding: 4rem 3rem;
+  flex-direction: column;
+  color: white;
+  background-image: url("/bg-mintdropz.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.partners_header {
+  display: flex;
+  gap: 5%;
+}
+
+.partnerCard {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.partnerCard img {
+  width: 20vw;
+  margin: 3rem 0 3rem 0;
+}
+
+.partnerCard h1 {
+  width: 70%;
+}
+
+.partners_header h1 {
+  font-size: 5rem;
+}
+
+.partners_card {
+  display: flex;
+  text-align: center;
 }
 
 @media (max-width: 600px) {

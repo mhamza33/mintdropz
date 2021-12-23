@@ -8,19 +8,27 @@ import Membership from "../components/Membership";
 import NewBanner from "../components/NewBanner";
 import TicketedBanner from "../components/TicketedBanner";
 import StreamBanner from "../components/StreamBanner";
+import FutureBanner from "../components/FutureBanner";
+import LaunchApp from "../components/LaunchApp";
+import Partners from "../components/Partners";
 import Footer from "../components/Footer";
 
 const Landing = () => {
   return (
     <div className={styles.landing}>
-      <NavBar />
-      <LandingHeader />
-      <ExPlatform />
+      <div className={styles.main_style}>
+        <NavBar />
+        <LandingHeader />
+        <ExPlatform />
+      </div>
       <NFTPlatform />
       <Membership />
       <NewBanner />
       <StreamBanner />
       <TicketedBanner />
+      <FutureBanner />
+      <LaunchApp />
+      <Partners />
       <Footer />
     </div>
   );
