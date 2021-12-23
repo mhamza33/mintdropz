@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1575" height="2494" viewBox="0 0 1575 2494">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#radial-gradient);
+      }
+
+      .cls-2 {
+        opacity: 0.84;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+    </style>
+    <radialGradient id="radial-gradient" cx="0.806" cy="0.299" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#aed168" stop-opacity="0"/>
+      <stop offset="0.51" stop-color="#b1d26f" stop-opacity="0.859"/>
+      <stop offset="1" stop-color="#60e7ce"/>
+    </radialGradient>
+  </defs>
+  <g id="bg-mintdropz" transform="translate(135 41)">
+    <path id="Path_45" data-name="Path 45" class="cls-1" d="M297,278.928C297,474.437,148.116,668,105.122,668,284.939,435.653,300.289,94.8-135,137.548-79.081-65.208,62.128-40,105.122-40S297,83.42,297,278.928Z"/>
+    <g id="Group_10" data-name="Group 10" class="cls-2">
+      <rect id="Rectangle_29" data-name="Rectangle 29" class="cls-3" width="1440" height="2453"/>
+    </g>
+  </g>
+</svg>
