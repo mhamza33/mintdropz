@@ -3,6 +3,16 @@
   padding: 0px;
 } */
 
+@font-face {
+  font-family: "MADE Outer Sans Alt";
+  src: url("../fonts/MADE\ Outer\ Sans\ Light\ PERSONAL\ USE.otf");
+}
+
+@font-face {
+  font-family: "Joyride Alt";
+  src: url("../fonts/JoyrideSTD.ttf");
+}
+
 .body {
   margin: 0px;
   padding: 0px;
@@ -13,13 +23,6 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  /* background-image: url("/bg-mint.svg");
-  background-repeat: no-repeat;
-  background-size: cover; */
-  /* background: cadetblue; */
-  /* background-image: url("/bg-mintdropz.svg");
-  background-repeat: no-repeat;
-  background-size: initial; */
 }
 
 .main {
@@ -65,8 +68,7 @@
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
+  font-family: joyride;
 }
 
 .grid {
@@ -99,9 +101,9 @@
   height: 1em;
   margin-left: 0.5rem;
 }
-
+/* 
 .landing {
-}
+} */
 
 .main_style {
   background-image: url("/bg-mintdropz.svg");
@@ -136,6 +138,7 @@
   display: flex;
   width: 100%;
   cursor: pointer;
+  font-family: "MADE Outer Sans Alt";
   justify-content: flex-end;
   gap: 5%;
   color: white;
@@ -157,8 +160,7 @@
   );
   outline: none;
   border: none;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "MADE Outer Sans Alt";
   font-weight: 800;
   font-size: 1rem;
   width: 141px;
@@ -188,6 +190,7 @@
   width: 100%;
   padding: 2rem 0;
   box-sizing: border-box;
+  font-family: "Joyride ALT";
   flex-direction: column;
   justify-content: space-between;
 }
@@ -200,9 +203,11 @@
   width: 70%;
   font-weight: 800;
   font-size: 3rem;
+  font-family: "Joyride ALT";
 }
 
 .info p {
+  font-family: "MADE Outer Sans Alt";
   font-size: 20px;
   width: 80%;
 }
@@ -255,6 +260,8 @@
 
 .header_partners h1 {
   margin: 4rem 0 0 0;
+  width: 50vw;
+  font-family: "Joyride ALT";
 }
 
 .partner {
@@ -267,10 +274,16 @@
 }
 
 .landing_img {
-  width: 30vw;
+  width: 40vw;
   display: flex;
+  justify-content: center;
   flex-direction: column;
   text-align: center;
+}
+
+.landing_img h1 {
+  width: 40vw;
+  font-family: "Joyride ALT";
 }
 
 .landing_img img {
@@ -294,6 +307,7 @@
 
 .monetize_platform h1 {
   font-size: 4rem;
+  font-family: "Joyride ALT";
   width: 60%;
 }
 
@@ -301,6 +315,7 @@
   font-size: 20px;
   width: 60%;
   margin: 0 0 3rem 0;
+  font-family: "MADE Outer Sans Alt";
 }
 
 .monetize_platform img {
@@ -342,15 +357,18 @@
   margin: 40px 0px 0px 0px;
   padding: 0px;
   width: 70%;
+  font-family: "Joyride ALT";
 }
 
 .platform_info p {
   font-size: 20px;
   width: 70%;
+  font-family: "MADE Outer Sans Alt";
 }
 
 .platform_btn {
   display: flex;
+  font-family: "MADE Outer Sans Alt";
   margin: 0 0 0 0;
 }
 
@@ -359,11 +377,10 @@
   cursor: pointer;
   outline: none;
   width: 300px;
+  font-family: "MADE Outer Sans Alt";
   border: none;
   font-size: 20px;
   font-weight: 800;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .learn_now {
@@ -374,7 +391,6 @@
 .get_started_now {
   clip-path: polygon(0 0, 85% 0, 100% 100%, 15% 100%);
   padding: 0 40px;
-
   background: linear-gradient(90deg, #b1d26f 0.05%, #60e7ce 100.16%);
 }
 
@@ -405,6 +421,7 @@
 
 .card h1 {
   font-size: 22px;
+  font-family: "MADE Outer Sans Alt";
 }
 
 .cardlast {
@@ -416,6 +433,7 @@
   border: none;
   display: flex;
   justify-content: center;
+  font-family: "MADE Outer Sans Alt";
   align-items: center;
   border-radius: 0px;
   transition: color 0.15s ease, border-color 0.15s ease;
@@ -428,6 +446,7 @@
   cursor: pointer;
   display: flex;
   gap: 30%;
+  font-family: "MADE Outer Sans Alt";
   width: 300px;
   border-radius: 5px;
   font-weight: 600;
@@ -483,11 +502,17 @@
 .membership_info h1 {
   font-size: 3rem;
   width: 65%;
+  font-family: "Joyride ALT";
 }
 
 .membership_info p {
   font-size: 20px;
   width: 65%;
+  font-family: "MADE Outer Sans Alt";
+}
+
+.membership_btn button {
+  font-family: "MADE Outer Sans Alt";
 }
 
 .new_banner {
@@ -531,13 +556,15 @@
 }
 
 .info_header h1 {
-  font-size: 4rem;
+  font-family: "Joyride ALT";
+  font-size: 3rem;
   width: 80%;
 }
 
 .info_header p {
   font-size: 20px;
   width: 80%;
+  font-family: "MADE Outer Sans Alt";
 }
 
 .info_btn {
@@ -549,6 +576,7 @@
   border: none;
   cursor: pointer;
   outline: none;
+  font-family: "MADE Outer Sans Alt";
   font-size: 20px;
   padding: 14px 2rem;
 }
@@ -569,7 +597,7 @@
 
 .footer {
   color: white;
-  background-image: linear-gradient(to right, rgb(39, 26, 39), rgb(21, 21, 39));
+  background-image: linear-gradient(to right, rgb(56, 46, 36), rgb(21, 21, 39));
   display: flex;
   padding: 4rem 3rem;
   flex-direction: column;
@@ -583,11 +611,13 @@
 
 .footer_header h1 {
   font-size: 4.5rem;
+  font-family: "Joyride ALT";
 }
 
 .footer_header p {
   font-size: 28px;
-  width: 70%;
+  width: 90%;
+  font-family: "MADE Outer Sans Alt";
 }
 
 .dark_logo {
@@ -633,10 +663,10 @@
 .future_header h1 {
   font-size: 4rem;
   width: 30%;
+  font-family: "Joyride ALT";
 }
 
 .future_header :nth-child(3) {
-  /* margin: 1rem auto; */
   width: 30%;
 }
 
@@ -650,7 +680,7 @@
 .section_one {
   display: flex;
   width: 40vw;
-  gap: 20%;
+  /* gap: 20%; */
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -682,11 +712,13 @@
 }
 
 .card_one h1 {
-  font-size: 28px;
+  font-size: 22px;
+  font-family: "MADE Outer Sans Alt";
 }
 
 .card_one p {
   width: 100%;
+  font-family: "MADE Outer Sans Alt";
 }
 
 .banner_border {
@@ -697,7 +729,6 @@
 .section_two {
   display: flex;
   width: 40vw;
-  gap: 20%;
   flex-direction: column;
 }
 
@@ -714,7 +745,8 @@
 }
 
 .launch h1 {
-  font-size: 5rem;
+  font-size: 4rem;
+  font-family: "Joyride ALT";
 }
 
 .launch img {
@@ -752,11 +784,14 @@
 }
 
 .partnerCard h1 {
-  width: 70%;
+  width: 50%;
+  font-family: "MADE Outer Sans Alt";
+  font-size: 20px;
 }
 
 .partners_header h1 {
-  font-size: 5rem;
+  font-size: 3.5rem;
+  font-family: "Joyride ALT";
 }
 
 .partners_card {
