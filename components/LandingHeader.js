@@ -34,6 +34,9 @@ const LandingHeader = () => {
           </div>
         </div>
       </div>
+      <div className={styles.star_1}>
+        <img src="/stars_1.svg" alt="Sorry!" />
+      </div>
       <div className={styles.landing_img}>
         <img src="/landing-boxer.svg" alt="Sorry!" />
         <h1>THE FUTURE OF EXPERIENCES FOR ATHLETES </h1>

@@ -10,14 +10,18 @@ const Partners = () => {
       </div>
       <div className={styles.partners_card}>
         <div className={styles.partnerCard}>
-          <img src="/polygon.svg" alt="Sorry!" />
+          <img src="/polygon.svg" className={styles.polygon_img} alt="Sorry!" />
           <h1>
             MintDropz teams up with Polygon Studios so you can create NFTs with
             no coding knowledge
           </h1>
         </div>
         <div className={styles.partnerCard}>
-          <img src="/algorand.svg" alt="Sorry!" />
+          <img
+            src="/algorand.svg"
+            className={styles.algorand_img}
+            alt="Sorry!"
+          />
           <h1>
             Mintdropz Partners Athletes to bring their own platforms and will
             broaden the horizon for these creators to launch on Algorand.

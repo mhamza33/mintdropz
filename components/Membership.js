@@ -1,12 +1,27 @@
 import React from "react";
 import styles from "../styles/Home.module.css";
+import Link from "next/link";
 
 const Membership = () => {
   return (
     <div className={styles.membership}>
       <div className={styles.membership_started}>
         <div className={styles.membership_card}>
-          <img src="/gym.svg" alt="Sorry!" />
+          <div className={styles.img_sec}>
+            <img src="/gym.svg" alt="Sorry!" />
+            <div className={styles.shadow_container}>
+              <p>
+                PROJECT: <br />{" "}
+                <b>
+                  {" "}
+                  <span>&nbsp;&nbsp;&nbsp;&nbsp; RAYMONT EDMONDS</span>
+                </b>
+              </p>
+              <Link href="/">
+                <button className={styles.inner_btn}>GET STARTED</button>
+              </Link>
+            </div>
+          </div>
         </div>
         <div className={styles.membership_btn}>
           <button className={styles.get_started}>
@@ -18,7 +33,9 @@ const Membership = () => {
         </div>
       </div>
       <div className={styles.membership_info}>
-        <h1>Memberships To Your App, With NFTs & Tokens </h1>
+        <h1>
+          Memberships To <span> </span> Your App, With NFTs & Tokens{" "}
+        </h1>
         <p>
           By building a platform that connects you directly with your fanbase,
           you can scale thousands of fans to make your brand millions of dollars

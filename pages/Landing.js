@@ -27,8 +27,10 @@ const Landing = () => {
       <StreamBanner />
       <TicketedBanner />
       <FutureBanner />
-      <LaunchApp />
-      <Partners />
+      <div className={styles.container}>
+        <LaunchApp />
+        <Partners />
+      </div>
       <Footer />
     </div>
   );

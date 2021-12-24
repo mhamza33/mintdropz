@@ -6,20 +6,20 @@ const TicketBanner = () => {
     <div className={styles.ticket_banner}>
       <div className={styles.nft_cards}>
         <div className={styles.card}>
-          <h1>ATHLETE</h1>
-          <h1 className={styles.card_heading}>NFT PLATFORMS</h1>
+          <h1>TICKETED LIVE STREAMS </h1>
+          {/* <h1 className={styles.card_heading}>NFT PLATFORMS</h1> */}
         </div>
         <div className={styles.card}>
-          <h1>NO</h1>
-          <h1>CODING NEDEED</h1>
+          {/* <h1>NO</h1> */}
+          <h1>DIGITALMERCH +NFTS </h1>
         </div>
         <div className={styles.card}>
-          <h1>EASY TO USE</h1>
-          <h1>PLATFORM BUILDER</h1>
+          {/* <h1>EASY TO USE</h1> */}
+          <h1>NFTS & TOKENS </h1>
         </div>
         <div className={styles.card}>
-          <h1>EXCLUSIVE APPS</h1>
-          <h1>PAYING FANS CAN ACCESS</h1>
+          {/* <h1>EXCLUSIVE APPS</h1> */}
+          <h1>YOUR OWN APPS </h1>
         </div>
         <div className={styles.cardlast}>
           <button>

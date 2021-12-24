@@ -23,6 +23,9 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  background-image: url("/bg-mintdropz.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .main {
@@ -123,12 +126,12 @@
 }
 
 .logo_nav img {
-  width: 7vw;
+  width: 10vw;
+  cursor: pointer;
 }
 
 .nav_items {
   display: flex;
-  gap: 5%;
   width: 100%;
   padding: 2rem 0rem;
   box-sizing: border-box;
@@ -140,12 +143,13 @@
   cursor: pointer;
   font-family: "MADE Outer Sans Alt";
   justify-content: flex-end;
-  gap: 5%;
+  gap: 2%;
+  font-size: 15px;
   color: white;
 }
 
 .nav_items_btn {
-  padding: 0 3rem;
+  padding: 0 0 0 3rem;
   box-sizing: border-box;
 }
 
@@ -163,7 +167,7 @@
   font-family: "MADE Outer Sans Alt";
   font-weight: 800;
   font-size: 1rem;
-  width: 141px;
+  width: 200px;
   cursor: pointer;
   border-radius: 5px;
 }
@@ -178,7 +182,7 @@
 }
 
 .header_info {
-  width: 60vw;
+  width: 40vw;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -186,7 +190,7 @@
 
 .inner_info {
   display: flex;
-  height: 80vh;
+  height: 70vh;
   width: 100%;
   padding: 2rem 0;
   box-sizing: border-box;
@@ -200,7 +204,7 @@
 }
 
 .info h1 {
-  width: 70%;
+  width: 100%;
   font-weight: 800;
   font-size: 3rem;
   font-family: "Joyride ALT";
@@ -210,6 +214,17 @@
   font-family: "MADE Outer Sans Alt";
   font-size: 20px;
   width: 80%;
+}
+
+.star_1 {
+  display: flex;
+  width: 5vw;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.star_1 img {
+  width: 5vw;
 }
 
 .header_info h1 {
@@ -258,23 +273,47 @@
 }
 
 .header_partners h1 {
-  margin: 4rem 0 0 0;
+  margin: 0 0 0 0;
   width: 50vw;
   font-family: "Joyride ALT";
 }
 
 .partner {
-  width: 40vw;
+  width: 45vw;
   justify-content: center;
   gap: 4%;
+  height: 20vh;
   margin: 3rem 0 0 0;
   display: flex;
   flex-wrap: wrap;
 }
 
+.partner img {
+  /* width: 9vw; */
+  margin: 0 0 0 2rem;
+}
+
+.partner :nth-child(1) {
+  width: 7.5vw;
+}
+
+.partner :nth-child(2) {
+  width: 12vw;
+}
+
+.partner :nth-child(3) {
+  width: 8vw;
+}
+
+.partner :nth-child(4) {
+  width: 12vw;
+  margin: 3rem 0 0 0;
+}
+
 .landing_img {
-  width: 40vw;
+  width: 50vw;
   display: flex;
+  align-items: center;
   justify-content: center;
   flex-direction: column;
   text-align: center;
@@ -286,8 +325,8 @@
 }
 
 .landing_img img {
-  width: 35vw;
-  margin: 6rem 0 3rem 0;
+  width: 40vw;
+  margin: 4rem 0 3rem 4rem;
 }
 
 .platform {
@@ -296,18 +335,19 @@
   box-sizing: border-box;
   color: white;
   width: 100%;
+  gap: 5%;
 }
 
 .monetize_platform {
   display: flex;
-  width: 70%;
+  width: 60%;
   flex-direction: column;
 }
 
 .monetize_platform h1 {
   font-size: 4rem;
   font-family: "Joyride ALT";
-  width: 60%;
+  width: 95%;
 }
 
 .monetize_platform p {
@@ -323,19 +363,21 @@
 
 .own_platform {
   display: flex;
-  width: 30%;
-  flex-direction: column;
-}
-
-.own_platform {
   width: 40vw;
-  display: flex;
   justify-content: right;
+  flex-direction: column;
 }
 
 .platform_img {
   margin: 3rem 2rem 0 0;
-  width: 30vw;
+  justify-content: flex-end;
+  width: 20vw;
+}
+
+.platform_img {
+  margin: 3rem 2rem 0 0;
+  width: 100%;
+  text-align: right;
 }
 
 .platform_info {
@@ -348,14 +390,27 @@
 
 .own_info {
   display: flex;
+  width: 40vw;
   flex-direction: column;
+}
+
+.own_info h1 {
+  display: flex;
+  width: 100%;
+}
+
+.star_2 {
+  display: flex;
+  width: 5vw;
+  margin: 7rem 0 1rem 0;
+  justify-content: flex-end;
 }
 
 .platform_info h1 {
   font-size: 4rem;
   margin: 40px 0px 0px 0px;
   padding: 0px;
-  width: 70%;
+  width: 80%;
   font-family: "Joyride ALT";
 }
 
@@ -476,21 +531,104 @@
   background-size: cover;
   color: white;
   display: flex;
-  gap: 10%;
+  /* gap: 10%; */
+}
+
+.membership_started {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+}
+
+.membership_card {
+  width: 40vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img_sec {
+  display: flex;
+  width: 30vw;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+  flex-direction: column;
+}
+
+.img_sec img {
+  box-sizing: border-box;
+  padding: 0 3rem;
+  height: 80vh;
+  margin: 4rem 0 0 0;
+}
+
+.shadow_container {
+  display: flex;
+  margin: 0 0 6rem -1rem;
+  position: absolute;
+  align-items: center;
+  justify-content: space-around;
+  background: linear-gradient(
+    91.95deg,
+    rgba(0, 0, 0, 0.8) 1.14%,
+    rgba(0, 0, 0, 0.4) 100%
+  );
+  backdrop-filter: blur(45px);
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 29vw;
+}
+
+.shadow_container p {
+  font-family: "MADE Outer Sans Alt";
+  font-size: 14px;
+}
+
+.shadow_container p span {
+  font-family: "Joyride Alt";
+  font-size: 12px;
+}
+
+.inner_btn {
+  color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  height: 40px;
+  background-image: linear-gradient(
+    91.95deg,
+    rgba(177, 210, 111, 0.8) 1.14%,
+    #60e7ce 100%
+  );
+  outline: none;
+  border: none;
+  font-family: "MADE Outer Sans Alt";
+  font-weight: 800;
+  font-size: 14px;
+  width: 150px;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
 .membership_btn {
   display: flex;
-  gap: 4%;
-  margin: 3rem 0 0 0;
+  width: 40vw;
+  gap: 3%;
+  justify-content: center;
+  margin: 2.5rem 0 0 0;
 }
 
 .membership_btn button {
   border: none;
   outline: none;
   cursor: pointer;
-  font-size: 20px;
-  padding: 1rem;
+  font-size: 24px;
+  font-family: "MADE Outer Sans Alt";
+  padding: 0.8rem;
+}
+
+.membership_btn button img {
+  width: 3vw;
+  height: 2vh;
 }
 
 .membership_btn :nth-child(2) {
@@ -498,15 +636,21 @@
   color: white;
 }
 
+.membership_info {
+  display: flex;
+  width: 50vw;
+  flex-direction: column;
+}
+
 .membership_info h1 {
-  font-size: 3rem;
-  width: 65%;
+  font-size: 4rem;
+  width: 100%;
   font-family: "Joyride ALT";
 }
 
 .membership_info p {
-  font-size: 20px;
-  width: 65%;
+  font-size: 28px;
+  width: 90%;
   font-family: "MADE Outer Sans Alt";
 }
 
@@ -545,30 +689,33 @@
 
 .stream_info {
   display: flex;
-  gap: 10%;
+  /* gap: 10%; */
+  width: 50vw;
   flex-direction: column;
 }
 
 .info_header {
   display: flex;
+  width: 50vw;
   flex-direction: column;
 }
 
 .info_header h1 {
   font-family: "Joyride ALT";
-  font-size: 3rem;
-  width: 80%;
+  font-size: 4rem;
+  width: 100%;
 }
 
 .info_header p {
-  font-size: 20px;
+  font-size: 26px;
   width: 80%;
   font-family: "MADE Outer Sans Alt";
 }
 
 .info_btn {
+  margin: 2rem 0 0 0;
   display: flex;
-  gap: 10%;
+  gap: 5%;
 }
 
 .info_btn button {
@@ -586,7 +733,8 @@
 }
 
 .stream_img {
-  width: 100%;
+  width: 40vw;
+  justify-content: flex-end;
   display: flex;
 }
 
@@ -596,9 +744,11 @@
 
 .footer {
   color: white;
-  background-image: linear-gradient(to right, rgb(56, 46, 36), rgb(21, 21, 39));
+  background-image: url("/mint_footer.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
-  padding: 4rem 3rem;
+  padding: 0 3rem 1rem 3rem;
   flex-direction: column;
 }
 
@@ -609,12 +759,12 @@
 }
 
 .footer_header h1 {
-  font-size: 4.5rem;
+  font-size: 5rem;
   font-family: "Joyride ALT";
 }
 
 .footer_header p {
-  font-size: 28px;
+  font-size: 34px;
   width: 90%;
   font-family: "MADE Outer Sans Alt";
 }
@@ -646,7 +796,7 @@
   flex-direction: column;
   width: 100%;
   color: white;
-  padding: 4rem 3rem;
+  padding: 0 3rem 3rem 3rem;
   background-image: url("/bg-mintdropz.svg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -735,16 +885,14 @@
   display: flex;
   width: 100%;
   color: white;
-  background-image: url("/bg-mintdropz.svg");
-  background-repeat: repeat-x;
-  background-size: cover;
-  padding: 4rem 3rem;
+  padding: 0 3rem;
+  align-items: center;
   flex-direction: column;
   justify-content: center;
 }
 
 .launch h1 {
-  font-size: 4rem;
+  font-size: 4.2rem;
   font-family: "Joyride ALT";
 }
 
@@ -755,12 +903,9 @@
 .partners {
   display: flex;
   width: 100%;
-  padding: 4rem 3rem;
+  padding: 0 3rem 3rem 3rem;
   flex-direction: column;
   color: white;
-  background-image: url("/bg-mintdropz.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .partners_header {
@@ -777,19 +922,24 @@
   justify-content: center;
 }
 
-.partnerCard img {
-  width: 20vw;
+.polygon_img {
+  width: 30vw;
+  margin: 3rem 0 3rem 0;
+}
+
+.algorand_img {
+  width: 17vw;
   margin: 3rem 0 3rem 0;
 }
 
 .partnerCard h1 {
-  width: 50%;
+  width: 60%;
   font-family: "MADE Outer Sans Alt";
-  font-size: 20px;
+  font-size: 24px;
 }
 
 .partners_header h1 {
-  font-size: 3.5rem;
+  font-size: 3.9rem;
   font-family: "Joyride ALT";
 }
 

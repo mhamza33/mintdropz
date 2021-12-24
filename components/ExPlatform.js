@@ -21,7 +21,10 @@ const ExPlatform = () => {
         />
         <div className={styles.platform_info}>
           <div className={styles.own_info}>
-            <h1>Your Own Platform</h1>
+            <h1>
+              Your Own Platform{" "}
+              <img src="/stars_2.svg" className={styles.star_2} alt="Sorry!" />
+            </h1>
             <p>
               Monetize your top fans with subscription revenue on your own apps
               across Web, iOS, Android, & Apple TV

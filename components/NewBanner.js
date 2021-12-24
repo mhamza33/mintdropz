@@ -6,20 +6,20 @@ const NFTPlatform = () => {
     <div className={styles.new_banner}>
       <div className={styles.nft_cards}>
         <div className={styles.card}>
-          <h1>ATHLETE</h1>
-          <h1 className={styles.card_heading}>NFT PLATFORMS</h1>
+          <h1>NO NEED TOBUILD A DEVELOPMENT TEAM</h1>
+          {/* <h1 className={styles.card_heading}>NFT PLATFORMS</h1> */}
         </div>
         <div className={styles.card}>
-          <h1>NO</h1>
-          <h1>CODING NEDEED</h1>
+          {/* <h1>NO</h1> */}
+          <h1>LAUNCH AN NFT PLATFORM</h1>
         </div>
         <div className={styles.card}>
-          <h1>EASY TO USE</h1>
-          <h1>PLATFORM BUILDER</h1>
+          {/* <h1>EASY TO USE</h1> */}
+          <h1>MONTHLY &ANNUAL SUBSCRIPTION</h1>
         </div>
         <div className={styles.card}>
-          <h1>EXCLUSIVE APPS</h1>
-          <h1>PAYING FANS CAN ACCESS</h1>
+          {/* <h1>EXCLUSIVE APPS</h1> */}
+          <h1>EXPERIENCES FOR YOUR FANS</h1>
         </div>
         <div className={styles.cardlast}>
           <button>
