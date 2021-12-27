@@ -15,6 +15,11 @@ const LandingHeader = () => {
                   Platforms to deliver exclusive experiences for their fans with
                   NFTs & Social Tokens
                 </p>
+                <img
+                  className={styles.star_1}
+                  src="/stars_1.svg"
+                  alt="Sorry!"
+                />
               </div>
 
               <div className={styles.header_btn}>
@@ -36,9 +41,6 @@ const LandingHeader = () => {
               </div>
             </div>
           </div>
-        </div>
-        <div className={styles.star_1}>
-          <img src="/stars_1.svg" alt="Sorry!" />
         </div>
       </div>
 

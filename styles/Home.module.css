@@ -202,6 +202,7 @@
 
 .info {
   width: 45vw;
+  position: relative;
 }
 
 .info h1 {
@@ -221,6 +222,9 @@
   display: flex;
   width: 5vw;
   flex-direction: column;
+  position: absolute;
+  top: 0;
+  right: 0;
   justify-content: flex-start;
 }
 
@@ -1389,4 +1393,134 @@
   /* .nft_platform {
     flex-direction: column;
   } */
+}
+@media only screen and (max-width: 1000px) {
+  .landing_header {
+    flex-direction: column;
+    width: 100%;
+  }
+  .info_sec {
+    width: 100%;
+  }
+  .header_info {
+    width: 100%;
+  }
+  .info {
+    width: 100%;
+  }
+  .info h1 {
+    width: 100%;
+  }
+  .info p {
+    width: 100%;
+  }
+  .landing_img {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 5rem 0 0 0;
+  }
+  .header_partners {
+    width: 100%;
+  }
+  .header_partners h1 {
+    width: 100%;
+  }
+  .header_btn {
+    width: 100%;
+  }
+  .partner {
+    width: 100%;
+  }
+  .partner :nth-child(1) {
+    width: 20vw;
+  }
+  .partner :nth-child(2) {
+    width: 20vw;
+  }
+  .partner :nth-child(3) {
+    width: 20vw;
+  }
+  .partner :nth-child(4) {
+    width: 20vw;
+  }
+  .landing_img img {
+    width: 30vw;
+  }
+  .landing_img h1 {
+    width: 100%;
+  }
+  .membership {
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .membership_started {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .membership_info {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .membership_info h1 {
+    width: 100%;
+  }
+  .membership_info p {
+    width: 100%;
+  }
+  .img_sec {
+    width: 100%;
+  }
+  .shadow_container {
+    width: 100%;
+  }
+  .stream_img img {
+    width: 40vw;
+  }
+  .future_header h1 {
+    font-size: 2.5rem;
+  }
+  .algorand_img {
+    width: 15vw;
+    margin-bottom: 25px;
+  }
+  .partnerCard {
+    height: 300px;
+    margin: 0 0 2rem 0;
+  }
+  .partners_header {
+    flex-direction: column;
+  }
+  .partners_header img {
+    width: 20%;
+  }
+  .bottom_footer {
+    justify-content: space-around;
+  }
+  .footer_link {
+    width: 40%;
+  }
+  .footer_header {
+    width: 100%;
+  }
+  .footer {
+    width: 100%;
+  }
+  .footer_header h1 {
+    width: 100%;
+  }
+  .footer_header p {
+    width: 100%;
+    font-size: 1rem;
+  }
+  .dark_logo img {
+    width: 20vw;
+  }
+  .social_link {
+    width: 15%;
+  }
 }
