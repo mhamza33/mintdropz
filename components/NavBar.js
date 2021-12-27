@@ -40,7 +40,7 @@ const NavBar = () => {
       <Modal centered isOpen={shows} toggle={() => setShows(false)}>
         <div className={styles.coming_soon_modal}>
           <div className={styles.modal_body}>
-            <i onClick={() => setShows(false)} class="fas fa-times"></i>
+            <i onClick={() => setShows(false)}></i>
             <div className={styles.img_container}>
               <img src="/Assets/alpha_new/sunny_logo.png" />
             </div>
