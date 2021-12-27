@@ -58,7 +58,6 @@ const NavBarSm = () => {
       <Modal centered isOpen={showCS} toggle={() => setShowCS(false)}>
         <div className={styles.coming_soon_modal}>
           <div className={styles.modal_body}>
-            <i onClick={() => setShowCS(false)} class="fas fa-times"></i>
             <div className={styles.img_container}>
               <img src="/logo.svg" />
             </div>
