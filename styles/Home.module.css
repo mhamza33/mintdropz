@@ -20,6 +20,7 @@
 }
 
 .container {
+  width: 100%;
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
@@ -459,6 +460,7 @@
 
 .nft_cards {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .card {
@@ -470,7 +472,7 @@
   border-right: 1px solid #1d1d1d;
   border-radius: 0px;
   transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
+  width: 300px;
 }
 
 .card h1 {
@@ -479,7 +481,7 @@
 }
 
 .cardlast {
-  margin: 1rem;
+  /* margin: 1rem; */
   padding: 1.5rem;
   text-align: left;
   color: inherit;
@@ -491,7 +493,7 @@
   align-items: center;
   border-radius: 0px;
   transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
+  /* max-width: 300px; */
 }
 
 .cardlast button {
@@ -499,9 +501,10 @@
   outline: none;
   cursor: pointer;
   display: flex;
-  gap: 30%;
+  justify-content: space-around;
+  /* gap: 30%; */
   font-family: "MADE Outer Sans Alt";
-  width: 300px;
+  max-width: 160px;
   border-radius: 5px;
   font-weight: 600;
   color: #000;
@@ -893,6 +896,8 @@
 
 .launch h1 {
   font-size: 4.2rem;
+  width: 100%;
+  overflow-wrap: break-word;
   font-family: "Joyride ALT";
 }
 
@@ -911,6 +916,7 @@
 .partners_header {
   display: flex;
   gap: 5%;
+  width: 100%;
 }
 
 .partnerCard {
@@ -936,10 +942,13 @@
   width: 60%;
   font-family: "MADE Outer Sans Alt";
   font-size: 24px;
+  overflow-wrap: break-word;
 }
 
 .partners_header h1 {
   font-size: 3.9rem;
+  /* width: 10%; */
+  overflow-wrap: break-word;
   font-family: "Joyride ALT";
 }
 
@@ -953,4 +962,431 @@
     width: 100%;
     flex-direction: column;
   }
+
+  .landing_header {
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .navbar_sm {
+    display: none;
+  }
+  .coming_soon_modal {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    background-color: black;
+  }
+  .modal_body {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .modal_body i {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  .img_container img {
+    max-width: 250px;
+    height: auto;
+  }
+  .title_container {
+    margin-top: 3rem;
+  }
+  .title_container h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -0.025em;
+    color: white;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar {
+    display: none;
+  }
+  .navbar_sm {
+    padding: 1rem 2rem;
+    display: flex;
+    z-index: 999;
+    position: absolute;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .logo_sec img {
+    width: 100px;
+  }
+  .hamburger_container {
+    padding: 10px 15px;
+    z-index: 1100;
+  }
+  .hamburger_container img {
+    max-width: 30px;
+  }
+  .drawer_body {
+    width: 100%;
+    border: none;
+    padding: 3rem;
+    height: auto;
+    margin-top: 3rem;
+  }
+  .drawer_body p {
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 10px;
+    padding: 0 0 0.5rem 0;
+    cursor: pointer;
+    font-family: "MADE Outer Sans Alt";
+  }
+
+  .drawer_body button {
+    width: 100%;
+    min-height: 50px;
+    background: linear-gradient(90deg, #b1d26f 0.05%, #60e7ce 100.16%);
+    font-family: "MADE Outer Sans Alt";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px !important;
+    color: #000000;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  .coming_soon_modal {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    background-color: black;
+  }
+  .modal_body {
+    max-width: 100%;
+    height: auto;
+    /* padding: 3rem 1rem; */
+    position: relative;
+    overflow: hidden;
+    padding: 3rem;
+    display: flex;
+    /* flex-direction: column; */
+    /* align-items: space; */
+    justify-content: space-between;
+  }
+  .modal_body i {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: black;
+    display: flex;
+    justify-content: flex-end;
+    background: none;
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+  .img_container img {
+    max-width: 200px;
+    height: auto;
+  }
+
+  /* .ant-drawer-close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+  } */
+
+  .title_container {
+    margin-top: 3rem;
+  }
+  .title_container h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -0.025em;
+    color: white;
+    text-align: center;
+  }
+
+  .landing_header {
+    flex-wrap: wrap;
+    padding: 6rem 3rem;
+    flex-direction: column;
+    width: 100%;
+  }
+  .header_info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+  }
+  .info {
+    width: 100%;
+  }
+
+  .inner_info {
+    height: 80vh;
+  }
+  .info_sec {
+    width: 100%;
+    display: flex;
+  }
+
+  .header_partners {
+    width: 100%;
+  }
+  .header_partners h1 {
+    width: 100%;
+    text-align: left;
+  }
+  .partner {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    /* margin: 0 0 15rem 0; */
+    gap: 4%;
+    justify-content: center;
+  }
+  .partner :nth-child(1) {
+    width: 20vh;
+  }
+  .partner :nth-child(2) {
+    width: 20vh;
+  }
+  .partner :nth-child(3) {
+    width: 20vh;
+  }
+  .partner :nth-child(4) {
+    width: 20vh;
+  }
+  .landing_img {
+    width: 100%;
+    margin: 20rem 0 0 0;
+  }
+  .landing_img h1 {
+    width: 100%;
+  }
+  .landing_img img {
+    width: 50vw;
+  }
+
+  .platform {
+    flex-direction: column;
+  }
+
+  .monetize_platform {
+    width: 100%;
+  }
+  .monetize_platform h1 {
+    width: 100%;
+  }
+  .monetize_platform p {
+    width: 100%;
+  }
+  .monetize_platform :nth-child(3) {
+    text-align: center;
+    width: 90vw;
+  }
+
+  .own_platform {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .platform_img {
+    width: 80%;
+    justify-content: center;
+  }
+  .platform_info {
+    margin: 0px;
+  }
+  .own_info {
+    width: 100%;
+  }
+  .star_2 {
+    width: 20vw;
+  }
+
+  .membership {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+  }
+
+  .img_sec {
+    width: 100%;
+    display: flex;
+  }
+
+  .membership_started {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .membership_card {
+    width: 100%;
+  }
+
+  .shadow_container {
+    width: 75%;
+  }
+  .membership_btn {
+    width: 100%;
+  }
+  .membership_info {
+    width: 100%;
+  }
+  .membership_info h1 {
+    width: 100%;
+  }
+  .membership_info p {
+    width: 100%;
+  }
+  .stream_banner {
+    flex-direction: column;
+    width: 100%;
+  }
+  .stream_info {
+    width: 100%;
+  }
+  .info_header {
+    width: 100%;
+  }
+  .info_header h1 {
+    width: 100%;
+  }
+  .info_header p {
+    width: 100%;
+  }
+  .info_btn {
+    width: 100%;
+  }
+  .stream_img {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .stream_img img {
+    width: 50vw;
+    margin: 4rem 0 0 0;
+  }
+
+  .partners {
+    /* flex-direction: row; */
+    width: 100%;
+  }
+
+  .partners_header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .partners_header img {
+    width: 20%;
+    overflow-wrap: break-word;
+  }
+  .partners_header h1 {
+    width: 100%;
+    font-size: 3.9em;
+    overflow-wrap: break-word;
+  }
+  .partners_card {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .partnerCard {
+    width: 100%;
+  }
+  .footer {
+    width: 100%;
+  }
+  .footer_header {
+    width: 100%;
+  }
+  .footer_header h1 {
+    font-size: 3rem;
+    width: 100%;
+  }
+  .footer_header p {
+    font-size: 1rem;
+    width: 100%;
+  }
+  .bottom_footer {
+    width: 100%;
+    flex-direction: column;
+  }
+  .dark_logo img {
+    width: 20vw;
+  }
+  .footer_link {
+    width: 100%;
+    margin: 2rem 0;
+  }
+  .social_link {
+    width: 100%;
+    margin: 0 0 1rem 0;
+  }
+  .future_header {
+    flex-direction: column;
+  }
+  .future_header h1 {
+    width: 100%;
+  }
+  .future_header img {
+    width: 20vw;
+  }
+  .future_cards {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .banner_border {
+    display: none;
+  }
+  .section_two {
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0 0 0;
+  }
+  .section_one {
+    justify-content: center;
+    align-items: center;
+  }
+  .card_one {
+    width: 800px;
+  }
+  .card_two {
+    width: 800px;
+  }
+  /* .nft_platform {
+    flex-direction: column;
+  } */
 }
