@@ -1148,7 +1148,11 @@
   .info {
     width: 100%;
   }
-
+  .info h1 {
+    width: 100%;
+    font-size: 2.5rem;
+    overflow-wrap: break-word;
+  }
   .inner_info {
     height: 80vh;
   }
@@ -1159,51 +1163,65 @@
 
   .header_partners {
     width: 100%;
+    margin: 4rem 0 0 0;
   }
   .header_partners h1 {
     width: 100%;
     text-align: left;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    overflow-wrap: break-word;
   }
   .partner {
-    display: flex;
-    flex-wrap: wrap;
+    flex-direction: row !important;
     width: 100%;
-    /* margin: 0 0 15rem 0; */
-    gap: 4%;
     justify-content: center;
+    align-items: center;
   }
   .partner :nth-child(1) {
-    width: 20vh;
+    margin: 1rem 0 1rem 0 !important;
+    width: 50vw !important;
   }
   .partner :nth-child(2) {
-    width: 20vh;
+    margin: 1rem 0 1rem 0 !important;
+    width: 80vw !important;
   }
   .partner :nth-child(3) {
-    width: 20vh;
+    margin: 1rem 0 1rem 0 !important;
+    width: 50vw !important;
   }
   .partner :nth-child(4) {
-    width: 20vh;
+    margin: 0 !important;
+    width: 80vw !important;
   }
   .landing_img {
     width: 100%;
-    margin: 20rem 0 0 0;
+    margin: 50rem 0 0 0 !important;
   }
   .landing_img h1 {
     width: 100%;
+    font-size: 1.5rem;
+    overflow-wrap: break-word;
   }
   .landing_img img {
-    width: 50vw;
+    width: 80vw !important;
+    margin: 0;
   }
 
   .platform {
     flex-direction: column;
+    padding-bottom: 9rem;
   }
-
+  .header_btn {
+    flex-direction: column;
+  }
   .monetize_platform {
     width: 100%;
   }
   .monetize_platform h1 {
     width: 100%;
+    font-size: 2.5rem;
+    overflow-wrap: break-word;
   }
   .monetize_platform p {
     width: 100%;
@@ -1219,7 +1237,7 @@
     align-items: center;
   }
   .platform_img {
-    width: 80%;
+    width: 100%;
     justify-content: center;
   }
   .platform_info {
@@ -1227,6 +1245,14 @@
   }
   .own_info {
     width: 100%;
+  }
+  .own_info h1 {
+    font-size: 2.5rem;
+    overflow-wrap: break-word;
+    width: 100%;
+  }
+  .platform_btn {
+    flex-direction: column;
   }
   .star_2 {
     width: 20vw;
@@ -1241,7 +1267,10 @@
 
   .img_sec {
     width: 100%;
-    display: flex;
+    height: 40vh;
+  }
+  .img_sec img {
+    height: 35vh;
   }
 
   .membership_started {
@@ -1256,20 +1285,33 @@
   }
 
   .shadow_container {
-    width: 75%;
+    width: 10vw;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    top: 150px;
+    align-items: center;
   }
   .membership_btn {
     width: 100%;
+    flex-direction: column;
   }
   .membership_info {
     width: 100%;
   }
   .membership_info h1 {
     width: 100%;
+    font-size: 2.5rem;
+    overflow-wrap: break-word;
+  }
+  .launch h1 {
+    font-size: 2.8rem;
+    overflow-wrap: break-word;
   }
   .membership_info p {
     width: 100%;
   }
+
   .stream_banner {
     flex-direction: column;
     width: 100%;
@@ -1282,12 +1324,15 @@
   }
   .info_header h1 {
     width: 100%;
+    font-size: 2.5rem;
+    overflow-wrap: break-word;
   }
   .info_header p {
     width: 100%;
   }
   .info_btn {
     width: 100%;
+    flex-direction: column;
   }
   .stream_img {
     width: 100%;
@@ -1295,13 +1340,13 @@
     justify-content: center;
   }
   .stream_img img {
-    width: 50vw;
+    width: 80vw !important;
     margin: 4rem 0 0 0;
   }
 
   .partners {
-    /* flex-direction: row; */
     width: 100%;
+    padding-bottom: 6rem;
   }
 
   .partners_header {
@@ -1316,10 +1361,25 @@
   }
   .partners_header h1 {
     width: 100%;
-    font-size: 3.9em;
+    font-size: 2.5em;
+    overflow-wrap: break-word;
     overflow-wrap: break-word;
   }
+  .partners_card :nth-child(1) {
+    margin: 0 0 4rem 0;
+  }
+  .polygon_img {
+    width: 50vw !important;
+  }
+  .partners_card :nth-child(2) {
+    /* margin: 8rem 0 0 0 !important; */
+  }
+  .algorand_img {
+    margin: 8rem 0 2rem 0 !important;
+    width: 30vw !important;
+  }
   .partners_card {
+    margin: 2rem 0 4rem 0 !important;
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -1327,6 +1387,8 @@
   }
   .partnerCard {
     width: 100%;
+    height: auto;
+    margin: 4rem 0 4rem 0 !important;
   }
   .footer {
     width: 100%;
@@ -1376,26 +1438,32 @@
     display: none;
   }
   .section_two {
+    width: 100%;
     justify-content: center;
     align-items: center;
     margin: 3rem 0 0 0;
   }
   .section_one {
+    width: 100%;
     justify-content: center;
     align-items: center;
   }
   .card_one {
-    width: 800px;
+    width: 80vw;
   }
   .card_two {
-    width: 800px;
+    width: 80vw;
+  }
+  .card {
+    border: none;
+    border-bottom: 1px solid black;
   }
   /* .nft_platform {
     flex-direction: column;
   } */
 }
 
-@media only screen and (max-width: 377px) {
+/* @media only screen and (max-width: 377px) {
   .navbar {
     display: none;
   }
@@ -1461,13 +1529,12 @@
   .modal_body {
     max-width: 100%;
     height: auto;
-    /* padding: 3rem 1rem; */
+
     position: relative;
     overflow: hidden;
     padding: 3rem;
     display: flex;
-    /* flex-direction: column; */
-    /* align-items: space; */
+
     justify-content: space-between;
   }
   .modal_body i {
@@ -1487,11 +1554,6 @@
     height: auto;
   }
 
-  /* .ant-drawer-close {
-    position: absolute;
-    top: 15px;
-    right: 15px;
-  } */
 
   .title_container {
     margin-top: 3rem;
@@ -1550,7 +1612,6 @@
   .partner {
     flex-direction: column !important;
     width: 100% !important;
-    /* gap: 4% !important; */
     align-items: center !important;
     flex-wrap: nowrap !important;
     margin: 2rem 0 4rem;
@@ -1651,12 +1712,10 @@
     flex-direction: column;
   }
   .img_sec {
-    /* width: 100vw !important; */
     display: flex;
     height: 100% !important;
   }
   .img_sec img {
-    /* width: 80% !important; */
     height: 35vh !important;
   }
 
@@ -1733,7 +1792,6 @@
     width: 100%;
   }
   .partners {
-    /* flex-direction: row; */
     width: 100%;
     padding: 0 3rem 3rem 3rem;
   }
@@ -1760,8 +1818,6 @@
     align-items: center;
     flex-direction: column;
   }
-  /* .partners_card :nth-child(2) {
-  } */
   .algorand_img {
     margin: 4rem 0 0 0;
     width: 40vw !important;
@@ -1844,10 +1900,7 @@
     border: none;
     border-bottom: 1px solid black;
   }
-  /* .nft_platform {
-    flex-direction: column;
-  } */
-}
+} */
 
 @media only screen and (max-width: 1000px) {
   .landing_header {
