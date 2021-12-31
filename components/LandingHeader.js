@@ -21,6 +21,10 @@ const LandingHeader = () => {
                   alt="Sorry!"
                 />
               </div>
+              <div className={styles.landing_img_mob}>
+                <img src="/landing_img_mob.svg" alt="Sorry!" />
+                <h1>THE FUTURE OF EXPERIENCES FOR ATHLETES </h1>
+              </div>
 
               <div className={styles.header_btn}>
                 <button className={styles.get_started}>
@@ -38,6 +42,16 @@ const LandingHeader = () => {
                 <img src="/polygon.svg" alt="Sorry!" />
                 <img src="/algorand.svg" alt="Sorry!" />
                 <img src="/solana.svg" alt="Sorry!" />
+              </div>
+              <div className={styles.partner_mob}>
+                <div className={styles.top_partner}>
+                  <img src="/ethereum.svg" alt="Sorry!" />
+                </div>
+                <div className={styles.bottom_partner}>
+                  <img src="/solana.svg" alt="Sorry!" />
+                  <img src="/algorand.svg" alt="Sorry!" />
+                  <img src="/polygon.svg" alt="Sorry!" />
+                </div>
               </div>
             </div>
           </div>

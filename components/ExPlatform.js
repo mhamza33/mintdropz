@@ -11,7 +11,14 @@ const ExPlatform = () => {
           fans and reward them with exclusive experiences, NFTs, and Social
           Tokens
         </p>
-        <img src="/mob.svg" alt="Sorry!" />
+        <div className={styles.platform_mob_img}>
+          <img src="/mob.svg" alt="Sorry!" />
+          <img
+            src="/platform-img.svg"
+            className={styles.platform_img_mob}
+            alt="Sorry!"
+          />
+        </div>
       </div>
       <div className={styles.own_platform}>
         <img

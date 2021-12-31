@@ -1,7 +1,8 @@
 import React from "react";
 import styles from "../styles/Home.module.css";
-import NavBar from "../components/NavBar";
+import NavBarRes from "../components/NavBarRes";
 import NavBarSm from "../components/NavBarSm";
+// import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 import LandingHeader from "../components/LandingHeader";
 import ExPlatform from "../components/ExPlatform";
 import NFTPlatform from "../components/NFTPlatform";
@@ -18,8 +19,8 @@ const Landing = () => {
   return (
     <div className={styles.landing}>
       <div className={styles.main_style}>
-        <NavBar />
-        <NavBarSm />
+        <NavBarRes />
+        {/* <NavBarSm /> */}
         <LandingHeader />
         <ExPlatform />
       </div>

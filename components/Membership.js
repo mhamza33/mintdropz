@@ -14,7 +14,7 @@ const Membership = () => {
                 PROJECT: <br />{" "}
                 <b>
                   {" "}
-                  <span>&nbsp;&nbsp;&nbsp;&nbsp; RAYMONT EDMONDS</span>
+                  <span>&nbsp; RAYMONT EDMONDS</span>
                 </b>
               </p>
               <Link href="/">
